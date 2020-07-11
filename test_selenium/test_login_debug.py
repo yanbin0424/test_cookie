@@ -9,4 +9,4 @@ class TestLogin:
         # 需要和启动命令的端口号一致
         option.debugger_address = "localhost:9222"
         driver = webdriver.Chrome(options=option)
-        driver.get("https://www.baidu.com")
+        driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx")
